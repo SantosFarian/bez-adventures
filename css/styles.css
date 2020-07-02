@@ -45,21 +45,21 @@ font-size: 3rem;
 /* Mobile View */
 #bezriver {
   position: relative;
-  bottom: 20px;
+  bottom: 5px;
   right: 280px;
   min-width: 220%;
 }
 
  #bezviaductb {
    position: relative;
-   bottom: 20px;
+   bottom: 5px;
    right: 220px;
    min-width: 200%;
  }
 
  #bezgolf2b {
   position: relative;
-  top: 5px;
+  bottom: 40px;
   right: 460px;
   min-width: 280%;
   height: 110%;
