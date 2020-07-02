@@ -39,35 +39,29 @@ font-size: 3rem;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
-}
-.carousel-item,> img {
-  position: relative;
-  top: 0;
-  min-width: 160%;
   height: 40rem;
 }
 
+/* Mobile View */
 #bezriver {
   position: relative;
   bottom: 20px;
-  right: 150px;
-  min-width: 140%;
+  right: 280px;
+  min-width: 220%;
 }
 
  #bezviaductb {
    position: relative;
    bottom: 20px;
-   right: 200px;
-   min-width: 160%;
+   right: 220px;
+   min-width: 200%;
  }
 
  #bezgolf2b {
   position: relative;
   bottom: 50px;
-  right: 380px;
-  width: 170%;
-  min-width: 240%;
+  right: 460px;
+  min-width: 280%;
 }
 
 
@@ -119,12 +113,14 @@ font-size: 3rem;
   .featurette-heading {
     font-size: 50px;
   }
+
+  /* Tablet View */
   #bezriver {
     position: relative;
-    bottom: 20px;
-    right: 220px;
+    bottom: 50px;
+    right: 650px;
     width: 80%;
-    height: 130%;
+    height: 150%;
   }
   
    #bezviaductb {
@@ -136,21 +132,23 @@ font-size: 3rem;
   
    #bezgolf2b {
     position: relative;
-    right: 850px;
-    bottom: 240px;
+    right: 900px;
+    bottom: 280px;
     height: 220%;
    }
   
 }
 
+
 @media (min-width: 62em) {
-  
+
+  /* Desktop View */
   #bezriver {
     position: relative;
-    bottom: 20px;
-    right: 220px;
-    width: 80%;
-    height: 130%;
+    bottom: 100px;
+    right: 600px;
+    width: 100%;
+    height: 140%;
   }
   
    #bezviaductb {
@@ -163,7 +161,7 @@ font-size: 3rem;
    #bezgolf2b {
     position: relative;
     right: 850px;
-    bottom: 240px;
+    bottom: 300px;
     height: 220%;
    }
   
