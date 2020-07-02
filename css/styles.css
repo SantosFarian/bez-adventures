@@ -39,7 +39,7 @@ font-size: 3rem;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 40rem;
+  height: 39rem;
 }
 
 /* Mobile View */
@@ -59,9 +59,10 @@ font-size: 3rem;
 
  #bezgolf2b {
   position: relative;
-  bottom: 20px;
+  top: 5px;
   right: 460px;
   min-width: 280%;
+  height: 110%;
 }
 
 /*Heading Image Tweak*/
