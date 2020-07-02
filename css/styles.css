@@ -59,11 +59,15 @@ font-size: 3rem;
 
  #bezgolf2b {
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
   right: 460px;
   min-width: 280%;
 }
 
+/*Heading Image Tweak*/
+.heading-img {
+  margin-bottom: 20px;
+}
 
 
 /* MARKETING CONTENT
